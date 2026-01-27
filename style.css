@@ -1,0 +1,11 @@
+body {
+    margin: 0px;
+}
+header {
+    background-color: #79cac3;
+    color: white;
+    text-align: center;
+    max-height: 240px;
+    min-height: 180px;
+    padding: 10px 0;
+}
