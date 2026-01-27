@@ -9,46 +9,52 @@
 <body>
     <header>
         <h1>Guia Linux</h1>
-        <p>Um guia basico para iniciantes em Linux</p>
+        <p id="sub">Um guia basico para iniciantes em Linux</p>
     </header>
     <main>
         <section>
-            <h2>Introdução ao Linux</h2>
+            <h2 class="subtitulo">Introdução ao Linux</h2>
             <p>Linux é um sistema operacional de código aberto baseado no kernel <a href="https://github.com/torvalds/linux" target="_blank">Linux</a>. Ele é amplamente utilizado em servidores, desktops e dispositivos embarcados.</p>
+            <img src="images/Tux.png" alt="Tux, o pinguim do Linux">
         </section>
         <section>
             <h2>História do Linux</h2>
             <p>
                 O Linux foi criado em 1991 por Linus Torvalds, um estudante finlandês que buscava uma alternativa gratuita e de código aberto ao Minix/Unix para seu computador 386. Anunciado em 25 de agosto de 1991 como um "hobby", o núcleo (kernel) evoluiu com a colaboração mundial, unindo-se às ferramentas GNU para se tornar a base do sistema operacional livre mais utilizado no mundo, dominando servidores, nuvem e supercomputadores. 
             </p>
+            <p>Assista esse video para mais informações:</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/5ocq6_3-nEw?si=dIHMHQkeBgg-PovV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
         </section>
-        <section>
-            <h2>Distribuições Populares</h2>
-            <ul>
-                <li><a href="https://www.gentoo.org/" target="_blank">Gentoo</a></li>
+        <aside>
+            <section>
+                <h2>Distribuições Populares</h2>
+                <p>Clique no nome da distribuição para saber mais:</p>
+                <ul>
+                    <li><a href="https://www.gentoo.org/" target="_blank">Gentoo</a></li>
+                        <ul>
+                            <li><a href="https://archlinux.org/" target="_blank">Arch Linux</a></li>
+                                <ul>
+                                    <li><a href="https://manjaro.org/" target="_blank">Manjaro</a></li>
+                                    <li><a href="https://cachyos.org/" target="_blank">Cachy OS</a></li>
+                                </ul>
+                        </ul>
+                    <li><a href="https://www.debian.org/index.pt.html" target="_blank">Debian</a></li>
                     <ul>
-                        <li><a href="https://archlinux.org/" target="_blank">Arch Linux</a></li>
+                        <li><a href="https://www.kali.org/" target="_blank">Kali Linux</a></li>
+                        <li><a href="https://ubuntu.com/download/desktop" target="_blank">Ubuntu</a></li>
                             <ul>
-                                <li><a href="https://manjaro.org/" target="_blank">Manjaro</a></li>
-                                <li><a href="https://cachyos.org/" target="_blank">Cachy OS</a></li>
+                                <li><a href="https://linuxmint.com/" target="_blank">Linux Mint</a></li>
+                                <li><a href="https://pop.system76.com/" target="_blank">Pop!_OS</a></li>
+                                <li><a href="https://zorin.com/os/" target="_blank">Zorin OS</a></li>
+                                <li><a href="https://elementary.io/" target="_blank">elementary OS</a></li>
                             </ul>
                     </ul>
-                <li><a href="https://www.debian.org/index.pt.html" target="_blank">Debian</a></li>
-                <ul>
-                    <li><a href="https://www.kali.org/" target="_blank">Kali Linux</a></li>
-                    <li><a href="https://ubuntu.com/download/desktop" target="_blank">Ubuntu</a></li>
-                        <ul>
-                            <li><a href="https://linuxmint.com/" target="_blank">Linux Mint</a></li>
-                            <li><a href="https://pop.system76.com/" target="_blank">Pop!_OS</a></li>
-                            <li><a href="https://zorin.com/os/" target="_blank">Zorin OS</a></li>
-                            <li><a href="https://elementary.io/" target="_blank">elementary OS</a></li>
-                        </ul>
+                    <li><a href="https://www.fedoraproject.org/" target="_blank">Fedora</a></li>
+            
                 </ul>
-
-                <li><a href="https://www.fedoraproject.org/" target="_blank">Fedora</a></li>
-                
-            </ul>
-        </section>
+            </section>
+        </aside>
         <section>
             <h2>Comandos Básicos do Terminal</h2>
             <p>Alguns comandos essenciais para começar a usar o terminal Linux:</p>
@@ -63,13 +69,13 @@
         <section>
             <h2>Recursos Adicionais</h2>
             <p>Para aprender mais sobre Linux, você pode visitar os seguintes recursos:</p>
-            <ul>
+            <ul id="fim">
                 <li><a href="https://www.linux.org/" target="_blank">Linux.org</a></li>
                 <li><a href="https://www.kernel.org/" target="_blank">The Linux Kernel Archives</a></li>
                 <li><a href="https://ubuntu.com/tutorials" target="_blank">Ubuntu Tutorials</a></li>
             </ul>
         </section>
     </main>
-    <footer>Site criado por Samuka, com o objetivo de criar um repositório inicial no GitHub, estou aberto a issues! </footer>
+    <footer>Site criado por <a href="https://github.com/Smkk4" target="_blank">Samuka</a>, com o objetivo de criar um repositório inicial no GitHub, estou aberto a issues! </footer>
 </body>
 </html>
