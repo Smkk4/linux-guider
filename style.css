@@ -72,7 +72,8 @@ aside {
     margin-right: 30px;
 }
 a {
-    text-decoration: none;
+    background-color: #79cac3;
+    text-decoration: underline;
     color: #1c302e;
 }
 a:hover {
