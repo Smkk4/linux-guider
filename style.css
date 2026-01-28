@@ -42,8 +42,8 @@ main {
     padding-top: 20px;
     background-color: rgb(193, 226, 255);
     max-width: 1000px;
-    margin-left: 30px;
     padding-left: 30px;
+    margin: auto;
 }
 #sub {
     font-style: italic;
