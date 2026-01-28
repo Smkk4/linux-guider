@@ -12,7 +12,7 @@ This project is basically a New Linux Users Guide, if you enjoy this masterpiece
  
  Hello everyone reading this, My name is Samuel, I'm from Santa Catarina, Brazil. This is my first public repository on GitHub. So... enjoy it!
 
- 
+ Project written in Brazilian Portuguese.
  And one more thing, I'm obsessed with Linux. 🐧
 
  
