@@ -16,8 +16,9 @@ Web-Site: [Guia do Penguin] (https://smkk4.github.io/linux-guider/)
 
  Project written in Brazilian Portuguese.
 
- 
- And one more thing, I'm obsessed with Linux. 🐧
+
+ Tools:
+ * Basic HTML5 and CSS3
 
  
 Credits: 
